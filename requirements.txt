@@ -1,0 +1,56 @@
+# Python Dependencies for OpenCV Personal Repository
+# ====================================================
+# This file lists all required Python packages for the computer vision
+# and deep learning scripts in this repository.
+#
+# Installation:
+#   pip install -r requirements.txt
+#
+# For development/testing:
+#   pip install -r requirements.txt --upgrade
+
+# Core Computer Vision
+opencv-python>=4.8.0          # OpenCV library for computer vision operations
+opencv-contrib-python>=4.8.0  # OpenCV contrib modules (optional but recommended)
+
+# Numerical Computing
+numpy>=1.24.0                 # Fundamental package for numerical computing
+scipy>=1.10.0                 # Scientific computing and technical computing
+
+# Deep Learning Frameworks (choose based on your needs)
+# TensorFlow/Keras
+tensorflow>=2.13.0            # TensorFlow deep learning framework
+keras>=2.13.0                 # High-level neural networks API
+
+# OR PyTorch (uncomment if using PyTorch instead of TensorFlow)
+# torch>=2.0.0                # PyTorch deep learning framework
+# torchvision>=0.15.0         # Computer vision models and utilities for PyTorch
+
+# Image Processing
+Pillow>=10.0.0                # Python Imaging Library (PIL fork)
+imageio>=2.31.0               # Library for reading and writing image data
+scikit-image>=0.21.0          # Image processing in Python
+
+# Data Science & Utilities
+pandas>=2.0.0                 # Data manipulation and analysis
+matplotlib>=3.7.0             # Plotting library
+seaborn>=0.12.0               # Statistical data visualization
+tqdm>=4.65.0                  # Progress bars for loops
+
+# Additional Computer Vision Libraries
+dlib>=19.24.0                 # Modern C++ toolkit for machine learning (optional)
+imutils>=0.5.4                # Convenience functions for OpenCV
+
+# Model Optimization & Deployment (optional)
+onnx>=1.14.0                  # Open Neural Network Exchange format
+onnxruntime>=1.15.0           # ONNX runtime for inference
+
+# Development & Testing (optional)
+pytest>=7.4.0                 # Testing framework
+pytest-cov>=4.1.0             # Coverage plugin for pytest
+flake8>=6.0.0                 # Code linting
+black>=23.0.0                 # Code formatting
+
+# Note: Version numbers are minimums. Adjust based on your specific needs.
+# Some packages may have conflicting dependencies. Install selectively.
+# For GPU support with TensorFlow/PyTorch, install GPU-specific versions.
