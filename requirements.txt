@@ -54,3 +54,16 @@ black>=23.0.0                 # Code formatting
 # Note: Version numbers are minimums. Adjust based on your specific needs.
 # Some packages may have conflicting dependencies. Install selectively.
 # For GPU support with TensorFlow/PyTorch, install GPU-specific versions.
+
+
+# Facial Recognition & Celebrity Detection
+dlib>=19.20.0                    # Face detection and facial landmark detection
+face-recognition>=1.3.5           # Face recognition library built on dlib
+requests>=2.28.0                 # HTTP library for image downloading
+beautifulsoup4>=4.11.0           # Web scraping for image sources
+lxml>=4.9.0                       # XML and HTML processing
+Pillow>=9.0.0                    # Python Imaging Library enhancements
+
+# Jupyter & Documentation
+jupyter>=1.0.0                   # Interactive notebook environment
+ipython>=8.0.0                   # IPython kernel for notebooks
